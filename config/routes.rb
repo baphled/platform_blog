@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   post 'newsletter/subscribe'
 
+  # FIXME: This breaks my brain
+  get 'newsletter/unsubscribe'
+
   resources :articles
 
   # Example of regular route:
