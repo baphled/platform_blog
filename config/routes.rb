@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   post 'newsletter/subscribe'
 
+  resources :articles
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
